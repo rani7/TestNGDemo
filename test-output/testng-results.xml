@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DemoTestSuite" duration-ms="132500" started-at="2018-12-13T07:40:04Z" finished-at="2018-12-13T07:42:17Z">
+    <groups>
+    </groups>
+    <test name="Test3" duration-ms="42507" started-at="2018-12-13T07:40:04Z" finished-at="2018-12-13T07:40:47Z">
+      <class name="pack1.Demo3">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pack1.Demo3@1f3ddb1]" name="beforeTest" is-config="true" duration-ms="5014" started-at="2018-12-13T07:40:04Z" finished-at="2018-12-13T07:40:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="calculateInterest()[pri:0, instance:pack1.Demo3@1f3ddb1]" name="calculateInterest" duration-ms="36476" started-at="2018-12-13T07:40:09Z" finished-at="2018-12-13T07:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateInterest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:pack1.Demo3@1f3ddb1]" name="afterTest" is-config="true" duration-ms="999" started-at="2018-12-13T07:40:46Z" finished-at="2018-12-13T07:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- pack1.Demo3 -->
+    </test> <!-- Test3 -->
+    <test name="Test2" duration-ms="89876" started-at="2018-12-13T07:40:47Z" finished-at="2018-12-13T07:42:17Z">
+      <class name="pack1.Demo2">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pack1.Demo2@5cb137]" name="beforeTest" is-config="true" duration-ms="4796" started-at="2018-12-13T07:40:47Z" finished-at="2018-12-13T07:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="sGoogle()[pri:1, instance:pack1.Demo2@5cb137]" name="sGoogle" duration-ms="16078" started-at="2018-12-13T07:40:52Z" finished-at="2018-12-13T07:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sGoogle -->
+        <test-method status="PASS" signature="sAmazon()[pri:2, instance:pack1.Demo2@5cb137]" name="sAmazon" duration-ms="67725" started-at="2018-12-13T07:41:08Z" finished-at="2018-12-13T07:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sAmazon -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:pack1.Demo2@5cb137]" name="afterTest" is-config="true" duration-ms="1270" started-at="2018-12-13T07:42:16Z" finished-at="2018-12-13T07:42:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- pack1.Demo2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- DemoTestSuite -->
+</testng-results>
